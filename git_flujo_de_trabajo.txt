@@ -1,0 +1,25 @@
+git remote add origin https://github.com/Avksentije/Folder   Vincular a un repositorio local de Git con un repo remoto en GitHub
+
+git remote -v  Muestra los alias de los repositorios remotos configurados y sus URLs
+    origin  https://github.com/Avksentije/Folder (fetch)
+    origin  https://github.com/Avksentije/Folder (push)
+
+git add    Agrega cambios en el directorio de trabajo al área de preparación del repositorio. 
+    Es la primera parte del proceso de realizar una confirmación (commit) en Git
+
+git commit -m "add main.py" Crea a confirmación (commit) en el repositorio local con un mensaje descrptivo proporcionado con la opción -m. 
+    En este caso la descripción es que se agrega el archivo main.py
+
+git push Este comando envía los cambios confirmados (commits) del repositorio local al repositorio remotoespecificado (en este caso, "origin")
+    Esto sincronia los cambios locales con el repositorio remoto
+
+git push --set-upstream origin master
+    Este comando establece la rama local actual (master) para realizar un seguimiento de la rama remota master en el repositorio remoto origin. 
+    Esto significa que en futuros git push, 
+    no necesitas especificar la rama y simplemente puedes escribir git push.
+
+git log
+    Este comando muestra el historial de confirmaciones (commits) en la rama actual,
+    con información como Autor, Fecha, Descripción de cada commit.
+
+Estos comandos son fundamentales en el flujo de trabajo típico de Git para administrar versiones de código fuente.
