@@ -22,3 +22,7 @@
   import my_module
 
   result = my_module.my_function(my_module.my_data)
+
+3) Cambiar el nombre de la entidad importada "sobre la marcha":
+from module import my_function as fun, my_data as dat
+result = fun(dat)
