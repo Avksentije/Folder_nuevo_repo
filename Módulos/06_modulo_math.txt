@@ -1,0 +1,18 @@
+pow(e, 1) == exp(log(e)):
+
+a) pow(e, 1) calcula "e" elevado a la potencia de 1, lo cual resulta simplemente en "e".
+b) exp(log(e)): Aquí, log(e) calcula el logaritmo base 10 de "e", que es 1, luego exp(1) es simplemente "e".
+Por lo tanto, esta línea compara si "e" es igual a "e", lo cual es verdadero.
+
+pow(2, 2) == exp(2 * log(2)):
+a) pow(2, 2) calcula 2 elevado a la potencia de 2, lo cual es 4.
+b) exp(2 * log(2)): 2 x log(2) = 1.38629436112; exp(1.38629436112), es aprox 4.
+
+
+log(e, e) == exp(0):
+
+a) log(e, e) calcula el logaritmo base 10 de "e" en base "e", lo cual resulta en 1, ya que cualquier número elevado a la potencia de 1 es igual a ese número.
+b) exp(0) calcula "e" elevado a la potencia de 0, lo cual siempre es igual a 1.
+Así que esta línea compara si 1 es igual a 1, lo cual es verdadero.
+
+En resumen, las comparaciones en estas líneas de código están verificando algunas propiedades de las funciones exponencial y logarítmica, mostrando relaciones matemáticas fundamentales.
