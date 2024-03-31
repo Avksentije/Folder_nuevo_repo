@@ -26,3 +26,15 @@
 3) Cambiar el nombre de la entidad importada "sobre la marcha":
 from module import my_function as fun, my_data as dat
 result = fun(dat)
+
+
+4) Imprimir los nombres de todas las entidades dentro de módulo:
+
+import math
+
+for name in dir(math):
+    print(name, end="\t"
+
+
+import math
+dir(math)
