@@ -1,0 +1,8 @@
+Random
+
+Números pseudoaleatorios determinados por algoritmos sofisticados.
+
+Un generador de números aleatorios toma un valor llamado semilla, 
+lo trata como un valor de entrada, calcula un número "aleatorio" basado en él 
+(el método depende de un algoritmo elegido) y produce una nueva semilla.
+
