@@ -23,3 +23,5 @@ git log
     con información como Autor, Fecha, Descripción de cada commit.
 
 Estos comandos son fundamentales en el flujo de trabajo típico de Git para administrar versiones de código fuente.
+
+git pull - realizar una conexión y actualización de carpetas desde un repositorio en la nube hacia un repositorio local
