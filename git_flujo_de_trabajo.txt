@@ -25,3 +25,6 @@ git log
 Estos comandos son fundamentales en el flujo de trabajo típico de Git para administrar versiones de código fuente.
 
 git pull - realizar una conexión y actualización de carpetas desde un repositorio en la nube hacia un repositorio local
+
+git remote -v
+    con este comando, nos aseguramos de estar vinculados en el repositorio remoto correcto, tanto para realizar un push como un pull
