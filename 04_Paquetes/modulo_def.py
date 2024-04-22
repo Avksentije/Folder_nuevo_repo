@@ -23,7 +23,7 @@ def prodl(the_list):
     return prod
 
 
-if __name__ == "__main__":  #comparo el nombre de main y una vez se compare y sea True, se inicia la serie de comandos
+if __name__ == "__main__":  #comparo el nombre de main y una vez se compare y sea True, se inicia la serie de comandos; detecta cuando se ejecuta el archivo de forma independiente.
     print("Yo prefiero ser un módulo, pero puedo realizar algunas pruebas por ti")
     my_list = [i+1 for i in range(5)] #el rango recordemos es 0, 1, 2, 3, 4 
     print(suml(my_list) == 15)  #Comparación función  1
